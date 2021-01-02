@@ -1,1 +1,3 @@
-<p>product works!</p>
+<ul>
+    <li *ngFor="let product of [].constructor(50);let i=index" [routerLink]="['/product', i+1]">{{'product'}} {{i+1}}</li>
+</ul>
